@@ -12,7 +12,7 @@ function sbp_search_bar() {
     $form = '
     <form role="search" method="get" id="searchform" class="searchform" action="' . esc_url(home_url('/')) . '">
         <label class="screen-reader-text" for="s">Rechercher :</label>
-        <input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="Recherche..." />
+        <input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="Recherchez un film / une série..." />
         <input type="submit" id="searchsubmit" value="Rechercher" />
     </form>';
 
@@ -38,3 +38,9 @@ function eni_custom_menu_page() {
     );
 }
 add_action('admin_menu', 'eni_custom_menu_page');
+
+// Pour inclure le fichier CSS
+function sbp_enqueue_styles() {
+    wp_enqueue_style('search-bar-style', plugin_dir_url(__FILE__) . 'search-bar.css');
+}
+add_action('wp_enqueue_scripts', 'sbp_enqueue_styles');

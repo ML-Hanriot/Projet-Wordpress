@@ -1,8 +1,8 @@
 <!--remplace index.php-->
 <?php get_header(); ?>
-<!--<h1>--><?php //the_title(); ?><!--</h1>-->
 
 <main id="primary" class="site-main">
+
     <?php the_content(); ?>
     <?php $AccueilcinemaQuery = new WP_Query([
         'post_type' => 'post', // Nous recherchons des articles ...

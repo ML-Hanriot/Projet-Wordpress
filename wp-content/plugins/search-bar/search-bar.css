@@ -1,0 +1,38 @@
+/*ensemble du plugin de recherche*/
+.searchform {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+/*bouton de recherche*/
+#searchsubmit {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+#searchsubmit:hover {
+    background: linear-gradient(45deg,
+    rgba(255, 87, 51, 0.3),  /* #FF5733 with 0.8 opacity */
+    rgba(255, 195, 0, 0.3),   /* #FFC300 with 0.8 opacity */
+    rgba(218, 247, 166, 0.3), /* #DAF7A6 with 0.8 opacity */
+    rgba(51, 255, 87, 0.3),   /* #33FF57 with 0.8 opacity */
+    rgba(51, 117, 255, 0.3),  /* #3375FF with 0.8 opacity */
+    rgba(131, 51, 255, 0.3),  /* #8333FF with 0.8 opacity */
+    rgba(255, 51, 181, 0.3)   /* #FF33B5 with 0.8 opacity */
+    );
+}
+/*champ de recherche*/
+#s {
+    width: 300px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #BEA6BB;
+    border: solid 1px black;
+}
+#s::placeholder {
+    color: whitesmoke;
+    padding-left: 10px;
+
+}

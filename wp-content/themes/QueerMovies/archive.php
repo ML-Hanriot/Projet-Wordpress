@@ -1,4 +1,8 @@
 <?php get_header(); ?>
+
+    <!-- Ajout de mon plugin de recherche (search-bar) -->
+<?php echo do_shortcode('[search_bar]'); ?>
+
     <div class="posts-container">
 <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
 
