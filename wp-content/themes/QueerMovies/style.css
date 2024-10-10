@@ -1,0 +1,133 @@
+/*
+Theme Name: QueerMovies
+Theme URI: https://
+Author: Marie Laure
+Author URI:
+Description: Theme sur mesure pour le projet Wordpress
+*/
+* {
+    margin: 0;
+}
+body {
+    background: #F5F5F5;
+}
+.header img {
+    width: 60px;
+}
+a {
+    text-decoration: none;
+}
+li, ul {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+header a {
+    color: #f3e9e9;
+    text-decoration: none;
+    font-size: 20px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(104, 45, 97, 0.56);
+    background-size: 100% 100%;
+    opacity: 70%;
+    padding: 20px 10px;
+    margin-bottom: 40px;
+}
+header p {
+    margin-left: 10px;
+}
+
+h1, h2 {
+    background: linear-gradient(45deg, #FF5733, #395dd1);
+    -webkit-background-clip: text; /* Pour Safari */
+    -webkit-text-fill-color: transparent; /* Pour masquer le texte d'origine */
+    background-clip: text; /* Pour d'autres navigateurs */
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+h3 {
+    background: linear-gradient(45deg, #FF5733, #395dd1);
+    -webkit-background-clip: text; /* Pour Safari */
+    -webkit-text-fill-color: transparent; /* Pour masquer le texte d'origine */
+    background-clip: text; /* Pour d'autres navigateurs */
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    text-align: center;
+    margin-left: 17px;
+    min-height: 90vh;
+
+}
+.post {
+    margin-top: 30px;
+    margin-right: 17px;
+}
+.post-content h2 {
+    font-size: 0.8rem;
+    margin-bottom: 20px; /* Espace entre le titre et l'affiche */
+    color: rgba(141, 31, 133, 0.82);
+}
+.attachment-medium, size-medium, wp-post-image {
+    border-radius: 10px;
+}
+.bouton {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(45deg,
+    rgba(255, 87, 51, 0.3),  /* #FF5733 with 0.8 opacity */
+    rgba(255, 195, 0, 0.3),   /* #FFC300 with 0.8 opacity */
+    rgba(218, 247, 166, 0.3), /* #DAF7A6 with 0.8 opacity */
+    rgba(51, 255, 87, 0.3),   /* #33FF57 with 0.8 opacity */
+    rgba(51, 117, 255, 0.3),  /* #3375FF with 0.8 opacity */
+    rgba(131, 51, 255, 0.3),  /* #8333FF with 0.8 opacity */
+    rgba(255, 51, 181, 0.3)   /* #FF33B5 with 0.8 opacity */
+    );
+    background-size: 100% 100%;
+    border: solid 1px rgba(0, 0, 0, 0.34);
+    cursor: pointer;
+    margin: 20px 400px;
+    transform: translate(20%, 0);
+}
+.form {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/*contenu du formulaire contact*/
+.wpcf7-form {
+    color: rebeccapurple;
+    text-align: center;
+}
+/*contenu du formulaire demandes*/
+#wpcf7-f103-p109-o1 {
+    color: rebeccapurple;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(104, 45, 97, 0.56);
+    padding: 20px 0;
+    color: #393939;
+
+}
+.footer a {
+    color: whitesmoke;
+    text-align: center;
+}
+
