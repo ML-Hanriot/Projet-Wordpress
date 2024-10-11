@@ -130,4 +130,9 @@ h3 {
     color: whitesmoke;
     text-align: center;
 }
-
+.wpcf7 {
+    min-height: 90vh;
+}
+input[type="radio"] {
+    margin: 20px;
+}
